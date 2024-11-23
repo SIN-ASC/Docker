@@ -16,9 +16,9 @@ Docker is a popular open-source platform that allows developers and system admin
 - <b>Docker Engine:</b>
 The Docker Engine is the core component of Docker. It is a client-server application that consists of:
 
-- - A server (the Docker daemon) that runs in the background and manages containers and images.
-- - A REST API that allows interaction with the Docker daemon.
-- - A command-line interface (CLI) (docker command) that allows users to communicate with the Docker daemon.
+  - A server (the Docker daemon) that runs in the background and manages containers and images.
+  - A REST API that allows interaction with the Docker daemon.
+  - A command-line interface (CLI) (docker command) that allows users to communicate with the Docker daemon.
 
 - <b>Docker Compose:</b>
   Docker Compose is a tool that allows you to define and manage multi-container Docker applications. It uses a YAML file (docker-compose.yml) to define services, networks, and volumes, making it easier to manage complex applications composed of multiple containers (e.g., a web server, database, and cache).
