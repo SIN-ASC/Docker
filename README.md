@@ -25,7 +25,7 @@
 - Stop docker<br>
 `sudo systemctl stop docker`
 
-## Optional Allow Docker to Run as Non-Root User
+## Allow Docker to Run as Non-Root User(Optional)
 By default, Docker requires `sudo` to run. If you want to run Docker as a non-root user, you can add your user to the Docker group.
 
 Add your user to the Docker group:<br>
