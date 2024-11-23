@@ -1,4 +1,5 @@
 # Docker
+Docker is a popular open-source platform that allows developers and system administrators to easily build, ship, and run applications in lightweight, portable, and self-sufficient containers. Containers allow applications to run consistently across various environments, from a developer's local machine to production servers, without the usual "it works on my machine" problems.
 ## Installation of Docker
 - Update system<br>
 `sudo dnf update -y`
