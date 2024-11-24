@@ -165,5 +165,5 @@ Docker compose is "a tool for defining and running complex applications with Doc
 - To check if the tomcat is running<br>
 `sudo docker ps`
 
-- To go inside the container
+- To go inside the container<br>
 `sudo docker exec -it 34c5235e2023 /bin/bash`
