@@ -96,7 +96,20 @@ Add your user to the Docker group:<br>
 
 - To run a container<br>
 `sudo docker run hello-world`<br>
-`sudo docker run -d hello-world` -d to run in the background
+`sudo docker run -d hello-world` -d to run in the background<br>
+It will start a stop container<br>`sudo docker start hello-world`
+
+- To pause a container<br>docker pause container id/name
+`sudo docker pause hello-world`
+
+- To stop a running container<br>docker stop container id/name<br>
+`sudo docker stop hello-world`
+
+- To display the processes of a container<br>docker top container id/name
+`sudo docker top hello-world`
+
+- To display stats<br>docker stats container id/name
+`sudo docker stats hello-world`
 
 - To remove/delete a container<br>
   docker container rm <container_id><br>
@@ -104,6 +117,9 @@ Add your user to the Docker group:<br>
 
 - To remove/delete all containers<br>
 `sudo docker container prune`<br>It removes all containers including the stopped ones
+
+- To create an image of the container<br>docker commit container id/name
+`sudo docker commit hello-world`
 
 ### Images:
 - To see all the images<br>
@@ -120,3 +136,29 @@ Add your user to the Docker group:<br>
 - To remove/delete an image<br>
   docker image rmi <image_id><br>
 `sudo docker image rmi d2c94e258dcb -f`<br> -f means forced delete it will be used when a particular image will have multiple tags
+
+## Docker-Compose
+Docker compose is "a tool for defining and running complex applications with Docker"
+- Run multiple containers from a single config file
+- define services, networks and volumes for a Docker application
+<br>
+Why do we use docker compose?
+- Because it helps to make our development enivornment repeatable, isolated and fast.
+- Then specify images and configurations in a simple YAML file
+  - docker-compose.yml
+- Command to get it run:<br>
+`sudo docker-compose up -d`
+<img src = "Screenshot 2024-11-17 181722.png" width="700" height="500">
+
+- Example
+<img src = "Screenshot 2024-11-17 181722.png" width="700" height="500">
+
+
+## Tomcat
+- To pull and run Tomcat<br>
+`sudo docker run -d tomcat`<br> Here it will download tomcat to local then run it in a container in the background
+
+- To check if the tomcat is running<br>
+`sudo docker ps`
+
+- 
