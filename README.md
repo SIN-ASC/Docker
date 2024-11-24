@@ -88,33 +88,33 @@ Add your user to the Docker group:<br>
 ## Containers and Images
 
 ### Containers
-- To see all the running containers
+- To see all the running containers<br>
 `sudo docker ps`
 
-- To see all the containers (both running and stopped)
+- To see all the containers (both running and stopped)<br>
 `sudo docker ps -a`
 
-- To run a container
-`sudo docker run hello-world`
-`sudo docker run -d hello-world` - to tun in the background
+- To run a container<br>
+`sudo docker run hello-world`<br>
+`sudo docker run -d hello-world` - to run in the background
 
 - To remove/delete a container<br>
   docker container rm <container_id><br>
 `sudo docker container rm 52411a60a9ea`
 
-- To remove/delete all containers
+- To remove/delete all containers<br>
 `sudo docker container prune`<br>It removes all containers including the stopped ones
 
 ### Images
-- To see all the images
+- To see all the images<br>
 `sudo docker image ls`
 
-- To give a new tag to the existing image
+- To give a new tag to the existing image<br>
 `sudo docker tag hello-world:latest my-world:latest`<br> Here 2 different tags will be pointing to the same image
 
-- To untag an image
+- To untag an image<br>
 `sudo docker image rmi my-world`<br> It will not delete the image, it will just remove the tag my-world from that image
 
-- To remove/delete an image
+- To remove/delete an image<br>
   docker image rmi <image_id><br>
 `sudo docker image rmi d2c94e258dcb -f`<br> -f means forced delete it will be used when a particular image will have multiple tags
