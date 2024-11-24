@@ -82,8 +82,8 @@ Docker is widely used in microservices architecture, where each service is deplo
 By default, Docker requires `sudo` to run. If you want to run Docker as a non-root user, you can add your user to the Docker group.
 
 Add your user to the Docker group:<br>
-`sudo usermod -aG docker $USER`<br>
-`newgrp docker`
+- `sudo usermod -aG docker $USER`<br>
+- `newgrp docker`
 
 ## Containers and Images
 
@@ -95,8 +95,8 @@ Add your user to the Docker group:<br>
 `sudo docker ps -a`
 
 - To run a container<br>
-`sudo docker run hello-world`<br>
-`sudo docker run -d hello-world` -d to run in the background<br>
+  - `sudo docker run hello-world`<br>
+  - `sudo docker run -d hello-world` -d to run in the background<br>
 It will start a stop container<br>`sudo docker start hello-world`
 
 - To pause a container<br>docker pause container id/name
