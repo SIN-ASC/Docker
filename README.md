@@ -147,7 +147,9 @@ Why do we use docker compose?
 - Then specify images and configurations in a simple YAML file
   - docker-compose.yml
 - Command to get it run:<br>
-`sudo docker-compose up -d`
+`sudo docker-compose up -d`<br>
+
+- Template
 <img src = "Screenshot 2024-11-25 003327.png" width="700" height="400">
 
 - Example
