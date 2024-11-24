@@ -87,7 +87,7 @@ Add your user to the Docker group:<br>
 
 ## Containers and Images
 
-### Containers
+### Containers:
 - To see all the running containers<br>
 `sudo docker ps`
 
@@ -105,7 +105,7 @@ Add your user to the Docker group:<br>
 - To remove/delete all containers<br>
 `sudo docker container prune`<br>It removes all containers including the stopped ones
 
-### Images
+### Images:
 - To see all the images<br>
 `sudo docker image ls`
 
