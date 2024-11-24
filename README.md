@@ -101,16 +101,16 @@ Add your user to the Docker group:<br>
 - It will start a stop container<br>
 `sudo docker start hello-world`
 
-- To pause a container<br>docker pause container id/name
+- To pause a container<br>docker pause container id/name<br>
 `sudo docker pause hello-world`
 
 - To stop a running container<br>docker stop container id/name<br>
 `sudo docker stop hello-world`
 
-- To display the processes of a container<br>docker top container id/name
+- To display the processes of a container<br>docker top container id/name<br>
 `sudo docker top hello-world`
 
-- To display stats<br>docker stats container id/name
+- To display stats<br>docker stats container id/name<br>
 `sudo docker stats hello-world`
 
 - To remove/delete a container<br>
@@ -120,7 +120,7 @@ Add your user to the Docker group:<br>
 - To remove/delete all containers<br>
 `sudo docker container prune`<br>It removes all containers including the stopped ones
 
-- To create an image of the container<br>docker commit container id/name
+- To create an image of the container<br>docker commit container id/name<br>
 `sudo docker commit hello-world`
 
 ### Images:
