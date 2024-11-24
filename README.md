@@ -142,7 +142,7 @@ Docker compose is "a tool for defining and running complex applications with Doc
 - Run multiple containers from a single config file
 - define services, networks and volumes for a Docker application
 <br>
-Why do we use docker compose?
+Why do we use docker compose?<br>
 - Because it helps to make our development enivornment repeatable, isolated and fast.
 - Then specify images and configurations in a simple YAML file
   - docker-compose.yml
