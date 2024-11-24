@@ -141,11 +141,11 @@ It will start a stop container<br>`sudo docker start hello-world`
 Docker compose is "a tool for defining and running complex applications with Docker"
 - Run multiple containers from a single config file
 - define services, networks and volumes for a Docker application
-<br>
-Why do we use docker compose?<br>
+<br>Why do we use docker compose?<br>
 - Because it helps to make our development enivornment repeatable, isolated and fast.
 - Then specify images and configurations in a simple YAML file
   - docker-compose.yml
+
 - Command to get it run:<br>
 `sudo docker-compose up -d`<br>
 
