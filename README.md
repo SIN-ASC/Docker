@@ -111,6 +111,8 @@ Add your user to the Docker group:<br>
 
 - To give a new tag to the existing image<br>
 `sudo docker tag hello-world:latest my-world:latest`<br> Here 2 different tags will be pointing to the same image
+<br> 1. hello-world:latest
+<br> 2. my-world:latest
 
 - To untag an image<br>
 `sudo docker image rmi my-world`<br> It will not delete the image, it will just remove the tag my-world from that image
