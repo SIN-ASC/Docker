@@ -148,10 +148,10 @@ Why do we use docker compose?
   - docker-compose.yml
 - Command to get it run:<br>
 `sudo docker-compose up -d`
-<img src = "Screenshot 2024-11-25 003327.png" width="700" height="500">
+<img src = "Screenshot 2024-11-25 003327.png" width="700" height="400">
 
 - Example
-<img src = "Screenshot 2024-11-25 003441.png" width="700" height="500">
+<img src = "Screenshot 2024-11-25 003441.png" width="700" height="400">
 
 
 ## Tomcat
