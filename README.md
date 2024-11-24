@@ -96,7 +96,7 @@ Add your user to the Docker group:<br>
 
 - To run a container<br>
 `sudo docker run hello-world`<br>
-`sudo docker run -d hello-world` - to run in the background
+`sudo docker run -d hello-world` -d to run in the background
 
 - To remove/delete a container<br>
   docker container rm <container_id><br>
