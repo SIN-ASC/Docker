@@ -97,7 +97,9 @@ Add your user to the Docker group:<br>
 - To run a container<br>
   - `sudo docker run hello-world`<br>
   - `sudo docker run -d hello-world` -d to run in the background<br>
-It will start a stop container<br>`sudo docker start hello-world`
+
+- It will start a stop container<br>
+`sudo docker start hello-world`
 
 - To pause a container<br>docker pause container id/name
 `sudo docker pause hello-world`
